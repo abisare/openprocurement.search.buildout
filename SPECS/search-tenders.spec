@@ -10,7 +10,7 @@ Summary: OpenProcurement Tenders Indexer and Search API
 Name: %{name}
 Version: %{version}
 Release: %{build_timestamp}
-Source0: https://github.com/abisare/openprocurement.search.buildout/archive/%{commit}/openprocurement.search.buildout-%{shortcommit}.tar.gz
+Source0: https://github.com/openprocurement/openprocurement.search.buildout/archive/%{commit}/openprocurement.search.buildout-%{shortcommit}.tar.gz
 License: Apache 2
 BuildRoot: %{_tmppath}/%{name}-buildroot
 Prefix: /opt/search-tenders
