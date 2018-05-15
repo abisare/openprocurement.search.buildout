@@ -1,0 +1,12 @@
+[Unit]
+Description=OpenProcurement Tenders Indexer and Search API Startup
+Requires=elasticsearch.service
+Type=forking
+PIDFILE=/run/search-tenders.pid
+WorkingDirectory=/opt/search-tenders
+User=search-tenders
+Group=search-tenders
+ExecStart=
+ExecStop=
+ExecReload=
+
